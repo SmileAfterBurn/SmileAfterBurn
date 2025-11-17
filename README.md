@@ -1,8 +1,20 @@
-# SAFB-AI-Charity-Protection-
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-SAFB AI Charity protection - всесвіт котрий працює для полегшення життя з урахуванням ризиків які можуть бути від дій ШІ. Принципи : не нашкодь, людину не треба замінювати якщо це принесе страждання а не полегшення, стосуються всього : фізичної праці, розумової, стосунків , тощо. АІ допомагає - не зменшує рівень інтелекту людини.
+# Run and deploy your AI Studio app
 
-## Карти послуг ГЗН
+This contains everything you need to run your app locally.
 
-Папка [`maps/`](maps/README.md) містить GeoJSON-файли з ключовими сервісами підтримки для Миколаївської, Одеської та Херсонської областей. У `maps/README.md` наведено інструкції щодо відкриття карт у Google My Maps, QGIS та інших сервісах.
+View your app in AI Studio: https://ai.studio/apps/drive/1B_zmo0e4jUY05h-L0DowNKVQOnI2OUj1
 
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
