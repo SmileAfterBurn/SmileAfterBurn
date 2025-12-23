@@ -2,11 +2,11 @@
 import React, { useState, useCallback } from 'react';
 import { formStructure } from './constants';
 import { FormFieldType, FormField } from './types';
-import FormInput from './components/FormInput';
-import RadioGroup from './components/RadioGroup';
-import SelectInput from './components/SelectInput';
-import CheckboxInput from './components/CheckboxInput';
-import TextArea from './components/TextArea';
+import FormInput from './FormInput';
+import RadioGroup from './RadioGroup';
+import SelectInput from './SelectInput';
+import CheckboxInput from './CheckboxInput';
+import TextArea from './TextArea';
 
 const App: React.FC = () => {
     const [formData, setFormData] = useState<Record<string, any>>({});
@@ -98,9 +98,26 @@ const App: React.FC = () => {
         <div className="min-h-screen bg-gray-900 text-gray-100 flex flex-col items-center p-4 sm:p-6 md:p-8">
             <div className="w-full max-w-4xl">
                 <header className="text-center mb-8">
-                    <h1 className="text-3xl sm:text-4xl font-bold text-cyan-400">ПОСМІШКА</h1>
-                    <p className="text-lg text-gray-400">БЛАГОДІЙНИЙ ФОНД</p>
-                    <h2 className="mt-4 text-2xl sm:text-3xl font-semibold">ЗГОДА НА УЧАСТЬ ДИТИНИ</h2>
+                    <h1 className="text-3xl sm:text-4xl font-bold text-cyan-400 mb-2">ПОСМІШКА</h1>
+                    <p className="text-lg text-cyan-300 font-semibold mb-4">БЛАГОДІЙНИЙ ФОНД</p>
+                    
+                    <div className="bg-gray-800 p-6 rounded-xl shadow-lg border border-cyan-500/30 mb-6">
+                        <h2 className="text-xl sm:text-2xl font-bold text-cyan-300 mb-3">Про нас</h2>
+                        <p className="text-gray-300 mb-4 leading-relaxed">
+                            Благодійний фонд "Посмішка" створений для підтримки дітей та родин, які потребують допомоги. 
+                            Ми працюємо з любов'ю та відданістю, щоб кожна дитина мала можливість розвиватися, 
+                            навчатися та посміхатися, незважаючи на життєві труднощі.
+                        </p>
+                        
+                        <h3 className="text-lg font-bold text-cyan-300 mb-2">Наша місія</h3>
+                        <p className="text-gray-300 leading-relaxed">
+                            Надавати всебічну підтримку дітям з особливими потребами, дітям з регіонів конфлікту 
+                            та внутрішньо переміщеним сім'ям. Ми створюємо безпечне середовище для розвитку, 
+                            навчання та соціалізації кожної дитини, допомагаючи їм будувати щасливе майбутнє.
+                        </p>
+                    </div>
+                    
+                    <h2 className="mt-4 text-2xl sm:text-3xl font-semibold text-white">ЗГОДА НА УЧАСТЬ ДИТИНИ</h2>
                 </header>
 
                 <form onSubmit={handleSubmit} className="space-y-8">
