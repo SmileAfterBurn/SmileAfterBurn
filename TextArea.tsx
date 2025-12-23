@@ -17,7 +17,8 @@ const TextArea: React.FC<TextAreaProps> = ({ id, label, value, onChange }) => (
             value={value}
             onChange={onChange}
             rows={4}
-            className="bg-gray-700 border border-gray-600 rounded-lg p-3 text-white focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition duration-200 outline-none resize-y"
+            placeholder={`Введіть ${label.toLowerCase()}`}
+            className="bg-gray-700 border border-gray-600 rounded-lg p-3 text-white placeholder-gray-400 focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition duration-200 outline-none resize-y"
         />
     </div>
 );

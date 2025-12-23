@@ -1,20 +1,21 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img src="https://raw.githubusercontent.com/SmileAfterBurn/smileafterburn-s-projects/main/humanitarian_banner.jpg" alt="Благодійний фонд Посмішка - Гуманітарний банер" width="800" />
 </div>
 
-# Run and deploy your AI Studio app
+# Благодійний фонд "Посмішка"
 
-This contains everything you need to run your app locally.
+Форма згоди на участь дитини у благодійних програмах.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1B_zmo0e4jUY05h-L0DowNKVQOnI2OUj1
+## Про проєкт
 
-## Run Locally
+Цей веб-додаток створений для збору інформації та згоди батьків на участь дітей у благодійних програмах фонду "Посмішка".
 
-**Prerequisites:**  Node.js
+## Запуск локально
 
+**Вимоги:** Node.js
 
-1. Install dependencies:
+1. Встановити залежності:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Встановити `GEMINI_API_KEY` у файлі [.env.local](.env.local) (якщо потрібно)
+3. Запустити додаток:
    `npm run dev`
