@@ -1,8 +1,8 @@
 ![SmileAfterBurn Banner](./assets/SAfB-Banner.svg)
 
-# 🇺🇦 SmileAfterBurn
+# 🇺🇦 Ілля.SmileAfterBurn
 
-**Inclusive service maps for every person**
+**Волонтер | Технічний розробник | Соціальні інструменти на основі ШІ**
 
 ---
 
